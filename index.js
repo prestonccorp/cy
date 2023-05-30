@@ -11,7 +11,7 @@ const userRouter = require("./routes/user");
 const PORT = process.env.PORT || 3000;
 const app = express();
 const DB =
-  "mongodb+srv://sccore:sccoreluv@cluster0.laudee6.mongodb.net/?retryWrites=true&w=majority";
+  "mongodb+srv://prestonccorp:0pandacok99@cluster0.ypt5lti.mongodb.net/?retryWrites=true&w=majority";
 const cors = require("cors");
 app.use(cors());
 // middleware
